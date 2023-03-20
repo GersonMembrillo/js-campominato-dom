@@ -1,0 +1,50 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #7FFFD4 ;
+}
+
+h1 img {
+  width: 60px;
+  height: 100%;
+}
+
+header, footer {
+  background-color: white;
+  height: 80px;
+}
+
+main {
+  height: calc(100% - 160px);
+  overflow-y: auto;
+}
+
+#playground {
+width: 500px;
+height: 500px;
+display: flex;
+flex-flow: row wrap;
+}
+
+.square {
+  border: 1px solid black;
+  color: #16166D;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.square-span {
+  opacity: 0;
+}
+
+.safe {
+  background-color: #16166D;
+  color: white;
+}
+
+.boom {
+  background-color: red;
+  color: white;
+}
